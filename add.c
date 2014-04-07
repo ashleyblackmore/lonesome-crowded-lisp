@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int add_together(int x, int y);
+void hallo(int x);
 
 int main(int argc, char** argv) {
-    add_together(2, 2);
+    hallo(5000000);
     return 0;
 }
 
-int add_together(int x, int y) {
-    int result = x + y;
-    puts(result);
-    return result;
+void hallo(int x) {
+    for (int i = 0; i < x; i++) {
+        printf("%d Hallo, Welt!\n", i);
+    }
 }
