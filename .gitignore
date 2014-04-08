@@ -3,3 +3,6 @@
 !*.h
 !Makefile
 !.gitignore
+!*.md
+!/etc
+!*.jpeg
