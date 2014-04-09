@@ -67,6 +67,18 @@ int main(int argc, char** argv) {
         }
 
         /* echo input back to user */
+
+        /* load AST from output */
+        /*mpc_ast_t* a = r.output;*/
+        /*printf("Tag: %s\n", a->tag);*/
+        /*printf("Contents: %s\n", a->contents);*/
+        /*printf("Number of children: %i\n", a->children_num);*/
+
+        /* get first child */
+        /*mpc_ast_t* c0 = a->children[0];*/
+        /*printf("First Child's Tag: %s\n", c0->tag);*/
+        /*printf("First Child's Contents: %s\n", c0->contents);*/
+        /*printf("First Child's Number of children: %i\n", c0->children_num);*/
         free(input);
     }
 
